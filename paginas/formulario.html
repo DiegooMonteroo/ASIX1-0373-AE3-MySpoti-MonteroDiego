@@ -1,11 +1,84 @@
 <!DOCTYPE html>
+<!-- Página de Formulario: Suscripción a newsletter de Madonna -->
 <html lang="en">
 <head>
+    <!-- Configuración de metadatos -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="wisdth=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <!-- Importación de iconos Font Awesome -->
+    <script src="https://kit.fontawesome.com/c0451cf26d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
-</body>
+    <!-- Navegación principal -->
+    <br>
+    <a href="../index.html">Indice</a>
+    <br>
+    <a href="../paginas/discografía.html">Discografía</a>
+    <!-- Sección: Formulario de suscripción -->
+    <br>
+    <!-- Título de suscripción -->
+    <h3>¡Subscribete a newlsletter!</h3>
+    <!-- Imagen decorativa -->
+    <img src="../fotosformu/descarga(1).jpeg" width="300" alt="foto">
+    <br>
+    <!-- Subtítulo del blog -->
+    <h2>El block de Madonna</h2>
+    <!-- Descripción y propósito del formulario -->
+    <p>Bienvenido al centro de Suscripción a newlsletter. Registrate en el formulario para enterarte de las ultimas noticias de Madonna y los ultimos albunes</p>
+    <hr>
+    <!-- Inicio del formulario de registro -->
+    <form action="URLdeDestino.html" method="GET">
+            <!-- Campo de entrada: Nombre -->
+            <label for="usernamerequired">Nom:</label>
+            <input type="text" name="username" id="usernamerequired">
+            <br>
+            <br>
+            <!-- Campo de entrada: Apellido -->
+            <label for="realname">Cognom:</label>
+            <input type="text" name="realname" id="realname">
+            <br>
+            <br>
+            <!-- Campo de selección: Grupo de edad -->
+             <label for="edad">Edad:</label>
+            <!-- Opciones de grupo de edad -->
+            <select id="edad" name="edad">
+                <option value="1-12">1-12</option>
+                <option value="12-24">12-24</option>
+                <option value="24-48">24-48</option>
+                 <option value="48-100">48-100</option>
+                
+            </select>
+            <br>
+            <br>
+            <!-- Campo de selección: País de origen -->
+             <label for="nacionalidad">Pais:</label>
+            <!-- Opciones de países disponibles -->
+            <select id="nacionalidad" name="nacionalidad" >
+                <option value="españa">España</option>
+                <option value="usa">USA</option>
+                <option value="brasil">Brasil</option>
+                <option value="portugal">Portugal</option>
+                <option value="francia">Francia</option>
+                <option value="italia">Italia</option>
+                <option value="alemania">Alemania</option>
+                
+            </select>
+            <br>
+            <br>
+            <label for="mailrequired">Correu electronic:</label>
+            <input type="text" name="mail" id="mailrequired">
+            <br>
+            <br>
+            <!-- Campo de entrada: Intereses -->
+            <label for="Interessos">Interessos:</label>
+            <input type="text" name="Interessos" id="Interessos">
+            <br>
+                  
+            <br>
+            <!-- Botón para enviar el formulario -->
+            <button type="submit" name="enviar" value="enviar">Enviar datos</button>
+        </form>
+        <!-- Cierre del body -->
+         </body>
 </html>
